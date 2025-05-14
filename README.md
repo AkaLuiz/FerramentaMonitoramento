@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ```
 
 4. Configure o token do GitHub:
+Crie um arquivo config.py com o seguinte conteúdo:
 ```bash
 GITHUB_TOKEN = 'seu_token_aqui'
 REPOS = [
@@ -43,14 +44,9 @@ REPOS = [
 ]
 ```
 
-5. Execute a aplicação:
-
-```bash
-python app.py
-```
 🔐 Nota: Para gerar um token de acesso pessoal, acesse https://github.com/settings/tokens.
 
-Execute a aplicação:
+5. Execute a aplicação:
 
 ```bash
 python app.py
