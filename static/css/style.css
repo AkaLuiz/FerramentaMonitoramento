@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #2ea44f;
+    --secondary-color: #1f6feb;
+}
+
+body {
+    background-color: #f6f8fa;
+    padding-top: 2rem;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px !important;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.stats-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.nav-link {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.header-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.repo-name {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.activity-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.activity-item:hover {
+    transform: translateY(-5px);
+}
+
+.chart-controls {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chart-selector {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    color: #666;
+}
+
+.chart-selector:hover {
+    background-color: #e0e0e0;
+}
+
+.chart-selector.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.chart-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+} 
