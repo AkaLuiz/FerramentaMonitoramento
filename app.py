@@ -15,6 +15,7 @@ HEADERS = {
 def get_random_repo():
     return random.choice(REPOS)
 
+#Função para pegar os dados de um repositório
 def get_github_data(owner, repo):
     base_url = f"https://api.github.com/repos/{owner}/{repo}"
     since_date = (datetime.now() - timedelta(days=30)).isoformat()
