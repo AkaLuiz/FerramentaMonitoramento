@@ -34,7 +34,7 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Configure o token do GitHub:
+4. Configure o token do GitHub:
 ```bash
 GITHUB_TOKEN = 'seu_token_aqui'
 REPOS = [
@@ -43,14 +43,10 @@ REPOS = [
 ]
 ```
 
-Crie um arquivo config.py com o seguinte conteúdo:
+5. Execute a aplicação:
 
 ```bash
-GITHUB_TOKEN = 'seu_token_aqui'
-REPOS = [
-    {'owner': 'usuario', 'repo': 'nome_do_repositorio'},
-    # Adicione mais repositórios conforme necessário
-]
+python app.py
 ```
 🔐 Nota: Para gerar um token de acesso pessoal, acesse https://github.com/settings/tokens.
 
